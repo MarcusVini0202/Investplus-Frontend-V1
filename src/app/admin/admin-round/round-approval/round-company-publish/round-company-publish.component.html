@@ -708,16 +708,16 @@
         <div style="width: 100%; display: flex; align-items: center; justify-content: space-between; padding: 0 20px;">
           <div style="display: flex; align-items: center; gap: 10px;">
             <p (click)="changeTabType('IN_PROGRESS')"
-              [ngStyle]="{'color': tabType === 'IN_PROGRESS' ? '#035A7A' : '#000000'}" style="cursor: pointer;">
+              [ngStyle]="{'color': tabType === 'IN_PROGRESS' ? '#035A7A' : '#000000'}" style="text-align:center; cursor: pointer;">
               Rodadas em andamento
             </p>
             <p (click)="changeTabType('PENDING')" [ngStyle]="{'color': tabType === 'PENDING' ? '#035A7A' : '#000000'}"
-              style="cursor: pointer;">
+              style="text-align:center; cursor: pointer;">
               Rodadas pendentes
             </p>
           </div>
           <div
-            style="height: 2.5em; width: 30%; display: flex; align-items: center; border-radius: 4px; border: 1px solid #E5E5E5; background-color: #FAFAFA; gap: 5px; padding: 0 16px; margin-bottom: 10px;">
+            style="height: 2.5em; width: 30%; display: flex; align-items: center; border-radius: 4px; border: 1px solid #E5E5E5; background-color: #FAFAFA; gap: 5px; margin-right: 8px; padding: 0 16px; margin-bottom: 10px;">
             <svg width="14" height="14" viewBox="0 0 14 14" fill="none" xmlns="http://www.w3.org/2000/svg">
               <path
                 d="M6.12502 11.0837C8.86342 11.0837 11.0834 8.86373 11.0834 6.12533C11.0834 3.38693 8.86342 1.16699 6.12502 1.16699C3.38662 1.16699 1.16669 3.38693 1.16669 6.12533C1.16669 8.86373 3.38662 11.0837 6.12502 11.0837Z"
@@ -748,7 +748,7 @@
 
 
             <button (click)="openSingUpModal()"
-              style="height: 36px; background-color: #035A7A; border-radius: 4px; display: flex; align-items: center; justify-content: center; padding: 0px 32px; margin-bottom: 10px;">
+              style="height: 36px; background-color: #035A7A; border-radius: 4px; display: flex; align-items: center; justify-content: center; width:200px; margin-bottom: 10px;">
               <p style="margin-bottom: 0; color: white;">Cadastrar rodada +</p>
             </button>
           </div>
